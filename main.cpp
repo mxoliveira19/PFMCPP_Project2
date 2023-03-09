@@ -16,9 +16,9 @@ video: Chapter 2 - Part 3
  
  1) Write down the names of the 6 major primitive types available in C++  here:
  
-int          // integer
-float        // Floating Point 
  
+ 
+ teste revert to here master
  
  
  
