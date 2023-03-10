@@ -16,12 +16,13 @@ video: Chapter 2 - Part 3
  
  1) Write down the names of the 6 major primitive types available in C++  here:
  
-int          // integer
-float        // Floating Point
-double       // Double Floating Point
-bool         // Boolean
-char         // Character
-wchar_t      // Wide Character 
+int        //integer
+float      // Floating Point
+double     //Double Floating Point
+bool       // Boolean
+char       //Character 
+wcahr_t    //Wide Character 
+ 
  
  
 2) for each primitive type, write out 3 variable declarations inside the variableDeclaration() function on line 59.
@@ -70,21 +71,21 @@ void variableDeclarations()
 
     float limit = 0.0f;
     float height = 0.0f;
-    float width = 0.0f;
+    float widht = 0.0f;
 
     double volume = 0.0;
     double density = 0.0;
     double pression = 0.0;
-
+    
     bool running = false;
     bool good = false;
-    bool captain = false;
+    bool captain = false;    
 
     char note = '-';
     char room = '-';
     char side = '-';
     
-    ignoreUnused(number, cash, level, point, limit, height, width, volume, density, pression, running, good, captain, note, room, side); //passing each variable declared to the ignoreUnused() function
+    ignoreUnused(number, cash, level, point, limit, height, widht, volume, density, pression, running, good, captain, note, room, side); //passing each variable declared to the ignoreUnused() function
 }
 
 /*
@@ -97,10 +98,11 @@ bool rentACar(int rentalDuration, int carType = 0)  //function declaration with 
     ignoreUnused(rentalDuration, carType); //passing each function parameter to the ignoreUnused() function
     return {}; //if your function returns something other than void, add 'return {};' at the end of it.
 } 
+
 /*
  1)
  */
-double calculateTime(double initialTime = 0.0, double finalTime = 0.0) 
+double calculateTime(double initialTime = 0.0, double finalTime = 0.0)
 {
     ignoreUnused(initialTime, finalTime);
     return {};
@@ -108,7 +110,7 @@ double calculateTime(double initialTime = 0.0, double finalTime = 0.0)
 /*
  2)
  */
-bool moveBallOnDisplay(bool clicked, int timesOnStage = 0) 
+bool moveBallOnDisplay(bool clicked, int timesOnStage = 0)
 {
     ignoreUnused(clicked, timesOnStage);
     return {};
@@ -116,7 +118,7 @@ bool moveBallOnDisplay(bool clicked, int timesOnStage = 0)
 /*
  3)
  */
-double calculateCircleArea(double diameter, int centerX = 0, int centerY = 0) 
+double calculateCircleArea(double diameter, int centerX = 0, int centerY = 0)
 {
     ignoreUnused(diameter, centerX, centerY);
     return {};
@@ -124,7 +126,7 @@ double calculateCircleArea(double diameter, int centerX = 0, int centerY = 0)
 /*
  4)
  */
-bool printImage(char option, int width = 5) 
+bool printImage(char option, int width = 5)
 {
     ignoreUnused(option, width);
     return {};
@@ -132,7 +134,7 @@ bool printImage(char option, int width = 5)
 /*
  5)
  */
-char getClassRoomStudent(int numberID, int year = 2020) 
+char getClassRoomStudent(int numberID, int year = 2020)
 {
     ignoreUnused(numberID, year);
     return {};
@@ -140,7 +142,7 @@ char getClassRoomStudent(int numberID, int year = 2020)
 /*
  6)
  */
-bool changeStarColor(int numberID, int temperature = 1000) 
+bool changeStarColor(int numberID, int temperature = 1000)
 {
     ignoreUnused(numberID, temperature);
     return {};
@@ -148,7 +150,7 @@ bool changeStarColor(int numberID, int temperature = 1000)
 /*
  7)
  */
-bool shutdownSystem(bool bottonClicked, int waitTime = 10) 
+bool shutdownSystem(bool bottonClicked, int waitTime = 10)
 {
     ignoreUnused(bottonClicked, waitTime);
     return {};
@@ -156,7 +158,7 @@ bool shutdownSystem(bool bottonClicked, int waitTime = 10)
 /*
  8)
  */
-float changeToCostumer(double received, double total = 0) 
+float changeToCostumer(double received, double total = 0)
 {
     ignoreUnused(received, total);
     return {};
@@ -164,7 +166,7 @@ float changeToCostumer(double received, double total = 0)
 /*
  9)
  */
-double getCurrentPlaceObject(double coordenateX = 0, double coordenateY = 0) 
+double getCurrentPlaceObject(double coordenateX = 0, double coordenateY = 0)
 {
     ignoreUnused(coordenateX, coordenateY);
     return {};
@@ -172,7 +174,7 @@ double getCurrentPlaceObject(double coordenateX = 0, double coordenateY = 0)
 /*
  10)
  */
-int getAgeStudent(int yearBorn, int currentYear = 2020) 
+int getAgeStudent(int yearBorn, int currentYear = 2020)
 {
     ignoreUnused(yearBorn, currentYear);
     return {};
