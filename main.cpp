@@ -100,70 +100,80 @@ bool rentACar(int rentalDuration, int carType = 0)  //function declaration with 
 /*
  1)
  */
-double calculateTime(double initialTime = 0.0, double finalTime = 0.0) {
+double calculateTime(double initialTime = 0.0, double finalTime = 0.0) 
+{
     ignoreUnused(initialTime, finalTime);
     return {};
 }
 /*
  2)
  */
-bool moveBallOnDisplay(bool clicked, int timesOnStage = 0) {
+bool moveBallOnDisplay(bool clicked, int timesOnStage = 0) 
+{
     ignoreUnused(clicked, timesOnStage);
     return {};
 }
 /*
  3)
  */
-double calculateCircleArea(double diameter, int centerX = 0, int centerY = 0) {
+double calculateCircleArea(double diameter, int centerX = 0, int centerY = 0) 
+{
     ignoreUnused(diameter, centerX, centerY);
     return {};
 }
 /*
  4)
  */
-bool printImage(char option, int width = 5) {
+bool printImage(char option, int width = 5) 
+{
     ignoreUnused(option, width);
     return {};
 }
 /*
  5)
  */
-char getClassRoomStudent(int numberID, int year = 2020) {
+char getClassRoomStudent(int numberID, int year = 2020) 
+{
     ignoreUnused(numberID, year);
     return {};
 }
 /*
  6)
  */
-bool changeStarColor(int numberID, int temperature = 1000) {
+bool changeStarColor(int numberID, int temperature = 1000) 
+{
     ignoreUnused(numberID, temperature);
     return {};
 }
 /*
  7)
  */
-bool shutdownSystem(bool bottonClicked, int waitTime = 10) {
+bool shutdownSystem(bool bottonClicked, int waitTime = 10) 
+{
     ignoreUnused(bottonClicked, waitTime);
     return {};
 }
 /*
  8)
  */
-float changeToCostumer(double received, double total = 0) {
+float changeToCostumer(double received, double total = 0) 
+{
     ignoreUnused(received, total);
     return {};
 }
 /*
  9)
  */
-double getCurrentPlaceObject(double coordenateX = 0, double coordenateY = 0) {
+double getCurrentPlaceObject(double coordenateX = 0, double coordenateY = 0) 
+{
     ignoreUnused(coordenateX, coordenateY);
     return {};
 }
 /*
  10)
  */
-int getAgeStudent(int yearBorn, int currentYear = 2020) {
+int getAgeStudent(int yearBorn, int currentYear = 2020) 
+{
     ignoreUnused(yearBorn, currentYear);
     return {};
 }
